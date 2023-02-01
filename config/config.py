@@ -25,11 +25,11 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/TheBotsUpdate")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TheBotsUpdate")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/friends_forever_581")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LOVE_FEELINGS_WILL")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/LOVE_FEELINGS_WILL")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
-
+ 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
