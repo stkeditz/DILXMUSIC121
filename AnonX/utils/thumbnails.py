@@ -234,7 +234,7 @@ async def gen_qthumb(videoid):
             font4 = ImageFont.truetype('AnonX/assets/font2.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
-            image4.text((10, 10), "ANON x MUSIC", fill="white", font = font1, align ="left") 
+            image4.text((10, 10), "DIL[AAROHI] x MUSIC", fill="white", font = font1, align ="left") 
             image4.text((670, 150), "ADDED TO QUEUE", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
 
             # title
