@@ -42,6 +42,9 @@ async def speedtest_function(client, message):
 **» __sᴩᴏɴsᴏʀ :__** {result['server']['sponsor']}
 **» __ʟᴀᴛᴇɴᴄʏ :__** {result['server']['latency']}  
 **» __ᴩɪɴɢ :__** {result['ping']}"""
+
+**💞🌹ᴀᴀʀᴏʜɪ ɪ ʟᴏᴠᴇ ʏᴏᴜ sᴏ ᴍᴜᴄʜ🌹💞**
+|| ᴍᴀᴅᴇ 🖤 ʙʏ [ᴅɪʟ❣️ᴀᴀʀᴏʜɪ](https://t.me/Honey_Singh_121) 🥀 ||
     msg = await app.send_photo(
         chat_id=message.chat.id, 
         photo=result["share"], 
