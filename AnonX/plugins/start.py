@@ -39,7 +39,7 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAx0CcSyO9gACbetkJv2KvCwNWijKTGaBd0ky6z8shgACFgAD0ruiLhllw11wp1ENHgQ")
+            await message.reply_sticker("CAACAgUAAx0CcSyO9gACbz9kJ7oVoA2sMHdme7uLM92v_ZJq4wACUwoAAk85OFWiYFHHT5NJfx4E")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
@@ -124,7 +124,7 @@ async def start_comm(client, message: Message, _):
         if name[0:3] == "del":
             await del_plist_msg(client=client, message=message, _=_)
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎")
+            m = await message.reply_text("💖")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -140,9 +140,9 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-✨**ᴛʀᴀᴄᴋ ɪɴғᴏʀɴᴀᴛɪᴏɴ**✨
+✨**🍃ᴛʀᴀᴄᴋ ɪɴғᴏʀɴᴀᴛɪᴏɴ ᴏғ ʜᴇᴀᴠᴇɴ🍃**✨
 
-📌 **ᴛɪᴛʟᴇ:** {title}
+❤‍🔥 **ᴛɪᴛʟᴇ:** {title}
 
 ⏳ **ᴅᴜʀᴀᴛɪᴏɴ:** {duration} ᴍɪɴᴜᴛᴇs
 👀 **ᴠɪᴇᴡs:** `{views}`
@@ -192,7 +192,7 @@ async def start_comm(client, message: Message, _):
         out = private_panel(_, app.username, OWNER)
         if config.START_IMG_URL:
             try:
-                await message.reply_sticker("CAACAgUAAx0CcSyO9gACbetkJv2KvCwNWijKTGaBd0ky6z8shgACFgAD0ruiLhllw11wp1ENHgQ")
+                await message.reply_sticker("CAACAgUAAx0CcSyO9gACbz9kJ7oVoA2sMHdme7uLM92v_ZJq4wACUwoAAk85OFWiYFHHT5NJfx4E")
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
