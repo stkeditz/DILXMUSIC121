@@ -160,10 +160,10 @@ async def start_comm(client, message: Message, _):
                 [
                     [
                         InlineKeyboardButton(
-                            text="• ʏᴏᴜᴛᴜʙᴇ •", url=f"{link}"
+                            text="🍃•ʏᴏᴜᴛᴜʙᴇ•🍃", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="• sᴜᴩᴩᴏʀᴛ •", url="https://t.me/LOVE_FEELINGS_WILL"
+                            text="🍁•sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🍁•", url="https://t.me/LOVE_FEELINGS_WILL"
                         ),
                     ],
                 ]
