@@ -25,6 +25,13 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
+                text="🥀 ғᴇᴇʟɪɴɢs 🥀", url=f"https://t.me/LOVE_FEELINGS_WILL_121"),
+            InlineKeyboardButton(
+                text="✨ ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️] ✨", url=f"https://t.me/aarohi_ki_duniya"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
                 text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ[ᴅɪʟ]💝", user_id=OWNER),
             InlineKeyboardButton(
                 text="🥰sᴜᴩᴩᴏʀᴛ[ᴀɪᴍ]🥰", url=config.SUPPORT_GROUP
@@ -48,14 +55,21 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
         ],
         [
+            InlineKeyboardButton(
+                text="🥀 ғᴇᴇʟɪɴɢs 🥀", url=f"https://t.me/LOVE_FEELINGS_WILL_121"),
+            InlineKeyboardButton(
+                text="✨ ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️] ✨", url=f"https://t.me/aarohi_ki_duniya"
+            ),
+        ],
+        [
             InlineKeyboardButton(text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ[ᴅɪʟ]💝", user_id=OWNER),
             InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ[ᴀɪᴍ]", url=config.SUPPORT_GROUP
+                text="🥰sᴜᴩᴩᴏʀᴛ[ᴀɪᴍ]🥰", url=config.SUPPORT_GROUP
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="🤨sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ🤨", url=config.UPSTREAM_REPO
+                    text="🥺 ᴏᴡɴᴇʀ 🥺", url=config.UPSTREAM_REPO
                 )
         ],
      ]
