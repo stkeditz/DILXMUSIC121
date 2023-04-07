@@ -53,6 +53,9 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
            InlineKeyboardButton(
                 text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
             ),
+           InlineKeyboardButton(
+                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/LOVE_FEELINGS_WILL_",
+            ),
         ],
         [
             InlineKeyboardButton(
@@ -103,6 +106,9 @@ def telegram_markup_timer(_, chat_id, played, dur):
            InlineKeyboardButton(
                 text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
             ),
+           InlineKeyboardButton(
+                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/LOVE_FEELINGS_WILL_",
+            ),
         ],
         [
             InlineKeyboardButton(
@@ -146,6 +152,9 @@ def stream_markup(_, videoid, chat_id):
            InlineKeyboardButton(
                 text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
             ),
+           InlineKeyboardButton(
+                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/LOVE_FEELINGS_WILL_",
+            ),
         ],
         [
             InlineKeyboardButton(
@@ -176,6 +185,9 @@ def telegram_markup(_, chat_id):
         [
            InlineKeyboardButton(
                 text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
+            ),
+           InlineKeyboardButton(
+                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/LOVE_FEELINGS_WILL_",
             ),
         ],
         [
@@ -330,6 +342,9 @@ def queue_markup(_, videoid, chat_id):
         [
            InlineKeyboardButton(
                 text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
+            ),
+           InlineKeyboardButton(
+                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/LOVE_FEELINGS_WILL_",
             ),
         ],
         [
