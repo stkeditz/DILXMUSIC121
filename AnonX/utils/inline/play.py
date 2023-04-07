@@ -54,7 +54,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
             ),
            InlineKeyboardButton(
-                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/LOVE_FEELINGS_WILL_",
+                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/aarohi_ki_duniya",
             ),
         ],
         [
@@ -107,7 +107,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
             ),
            InlineKeyboardButton(
-                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/LOVE_FEELINGS_WILL_",
+                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/aarohi_ki_duniya",
             ),
         ],
         [
@@ -153,7 +153,7 @@ def stream_markup(_, videoid, chat_id):
                 text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
             ),
            InlineKeyboardButton(
-                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/LOVE_FEELINGS_WILL_",
+                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/aarohi_ki_duniya",
             ),
         ],
         [
@@ -187,7 +187,7 @@ def telegram_markup(_, chat_id):
                 text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
             ),
            InlineKeyboardButton(
-                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/LOVE_FEELINGS_WILL_",
+                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/aarohi_ki_duniya",
             ),
         ],
         [
@@ -344,7 +344,7 @@ def queue_markup(_, videoid, chat_id):
                 text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
             ),
            InlineKeyboardButton(
-                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/LOVE_FEELINGS_WILL_",
+                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/aarohi_ki_duniya",
             ),
         ],
         [
