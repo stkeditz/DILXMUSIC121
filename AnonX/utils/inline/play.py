@@ -51,10 +51,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
+                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/HONEY_SINGH_121",
             ),
            InlineKeyboardButton(
-                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/aarohi_ki_duniya",
+                text="💖ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/aarohi_ki_duniya",
             ),
         ],
         [
@@ -104,10 +104,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
+                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/HONEY_SINGH_121",
             ),
            InlineKeyboardButton(
-                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/aarohi_ki_duniya",
+                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/aarohi_ki_duniya",
             ),
         ],
         [
@@ -150,10 +150,10 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
+                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/HONEY_SINGH_121",
             ),
            InlineKeyboardButton(
-                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/aarohi_ki_duniya",
+                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/aarohi_ki_duniya",
             ),
         ],
         [
@@ -184,10 +184,10 @@ def telegram_markup(_, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
+                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/HONEY_SINGH_121",
             ),
            InlineKeyboardButton(
-                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/aarohi_ki_duniya",
+                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/aarohi_ki_duniya",
             ),
         ],
         [
@@ -341,10 +341,10 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
+                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/HONEY_SINGH_121",
             ),
            InlineKeyboardButton(
-                text="ᴍʏ ʟɪғᴇ[❣️]", url=f"https://t.me/aarohi_ki_duniya",
+                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/aarohi_ki_duniya",
             ),
         ],
         [
