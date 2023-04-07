@@ -50,6 +50,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             ),
         ],
         [
+           InlineKeyboardButton(
+                text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
+            ),
+        ],
+        [
             InlineKeyboardButton(
                 text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
             )
@@ -95,6 +100,11 @@ def telegram_markup_timer(_, chat_id, played, dur):
             ),
         ],
         [
+           InlineKeyboardButton(
+                text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
+            ),
+        ],
+        [
             InlineKeyboardButton(
                 text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️] 🥀", url=config.SUPPORT_GROUP
             ),
@@ -133,6 +143,11 @@ def stream_markup(_, videoid, chat_id):
             ),
         ],
         [
+           InlineKeyboardButton(
+                text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
+            ),
+        ],
+        [
             InlineKeyboardButton(
                 text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
             )
@@ -156,6 +171,11 @@ def telegram_markup(_, chat_id):
             ),
             InlineKeyboardButton(
                 text="❣️▢❣️", callback_data=f"ADMIN Stop|{chat_id}"
+            ),
+        ],
+        [
+           InlineKeyboardButton(
+                text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
             ),
         ],
         [
@@ -306,6 +326,11 @@ def queue_markup(_, videoid, chat_id):
             InlineKeyboardButton(
                 text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🥀", url=config.SUPPORT_GROUP
             )
+        ],
+        [
+           InlineKeyboardButton(
+                text="💖𝐎𝐖𝐍𝐄𝐑💖", url=f"https://t.me/HONEY_SINGH_121",
+            ),
         ],
         [
             InlineKeyboardButton(
