@@ -12,7 +12,7 @@
 <a href="https://github.com/TheAnonymous2005/AnonXMusic/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=yellow&label=pyrogram&logo=python&logoColor=green&style=for-the-badge" /></a>
-<a href="https://github.com/TheAnonymous2005/AnonXMusic/commits/AnonymousR1025"> <img src="https://img.shields.io/github/last-commit/TheAnonymous2005/AnonXMusic?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+<a href="https://github.com/stkeditz/DILXMUSIC121/commits/stkeditz"> <img src="https://img.shields.io/github/last-commit/stkeditz/DILXMUSIC121?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 <p align="center">
