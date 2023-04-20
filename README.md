@@ -7,12 +7,12 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/stkeditz/DILxMUSIC123/stargazers"><img src="https://img.shields.io/github/stars/stkeditz/DILxMUSIC123?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/stkeditz/DILxMUSIC123/network/members"> <img src="https://img.shields.io/github/forks/stkeditz/DILxMUSIC123?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/stkeditz/DILxMUSIC123/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/stkeditz//DILXMUSIC121/stargazers"><img src="https://img.shields.io/github/stars/stkeditz//DILXMUSIC121?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/stkeditz//DILXMUSIC121/network/members"> <img src="https://img.shields.io/github/forks/stkeditz//DILXMUSIC121?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/stkeditz//DILXMUSIC121/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=yellow&label=pyrogram&logo=python&logoColor=green&style=for-the-badge" /></a>
-<a href="https://github.com/stkeditz/DILxMUSIC121/commits/stkeditz"> <img src="https://img.shields.io/github/last-commit/stkeditz/DILxMUSIC123?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+<a href="https://github.com/stkeditz//DILXMUSIC121/commits/stkeditz"> <img src="https://img.shields.io/github/last-commit/stkeditz//DILXMUSIC121?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 <p align="center">
@@ -23,12 +23,12 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ʙʏ ᴅɪʟ」─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/TheAnonymous2005/AnonXMusic"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/stkeditz//DILXMUSIC121"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/stkeditz/DILxMUSIC123/blob/master/sample.env)
+- Get your [Necessary Variables](https://github.com/stkeditz//DILXMUSIC121/blob/master/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
