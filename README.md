@@ -7,12 +7,12 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/stkeditz//DILXMUSIC121/stargazers"><img src="https://img.shields.io/github/stars/stkeditz//DILXMUSIC121?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/stkeditz//DILXMUSIC121/network/members"> <img src="https://img.shields.io/github/forks/stkeditz//DILXMUSIC121?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/stkeditz//DILXMUSIC121/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/stkeditz/DILxMUSIC123/stargazers"><img src="https://img.shields.io/github/stars/stkeditz/DILxMUSIC123?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/stkeditz/DILxMUSIC123/network/members"> <img src="https://img.shields.io/github/forks/stkeditz/DILxMUSIC123?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/stkeditz/DILxMUSIC123/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=yellow&label=pyrogram&logo=python&logoColor=green&style=for-the-badge" /></a>
-<a href="https://github.com/stkeditz//DILXMUSIC121/commits/stkeditz"> <img src="https://img.shields.io/github/last-commit/stkeditz//DILXMUSIC121?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+<a href="https://github.com/stkeditz/DILxMUSIC121/commits/stkeditz"> <img src="https://img.shields.io/github/last-commit/stkeditz/DILxMUSIC123?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 <p align="center">
