@@ -1,8 +1,7 @@
 from datetime import datetime
 
 from pyrogram import filters
-from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
-
+from pyrogram.types import Message
 from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 from strings import get_command
 from AnonX import app
@@ -35,14 +34,3 @@ async def ping_com(client, message: Message, _):
             resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
         )
     )
-reply_markup=InlineKeyboardMarkup
-            [
-                [
-                    InlineKeyboardButton("❄ sᴜᴘᴘᴏʀᴛ ❄", url=config.SUPPORT_CHAT),
-                    InlineKeyboardButton(
-                        "✨ sᴏᴜʀᴄᴇ ✨",
-                        url="https://t.me/tesyyai12345",
-                    ),
-                ],
-            ]
-        ),
