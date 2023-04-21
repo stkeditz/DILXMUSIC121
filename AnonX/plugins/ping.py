@@ -36,7 +36,6 @@ async def ping_com(client, message: Message, _):
         )
     )
 reply_markup=InlineKeyboardMarkup
-   (
             [
                 [
                     InlineKeyboardButton("❄ sᴜᴘᴘᴏʀᴛ ❄", url=config.SUPPORT_CHAT),
@@ -47,4 +46,3 @@ reply_markup=InlineKeyboardMarkup
                 ],
             ]
         ),
-    )
