@@ -35,7 +35,8 @@ async def ping_com(client, message: Message, _):
             resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
         )
     )
-reply_markup=InlineKeyboardMarkup(
+reply_markup=InlineKeyboardMarkup
+   (
             [
                 [
                     InlineKeyboardButton("❄ sᴜᴘᴘᴏʀᴛ ❄", url=config.SUPPORT_CHAT),
