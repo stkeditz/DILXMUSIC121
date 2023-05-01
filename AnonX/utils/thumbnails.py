@@ -150,10 +150,10 @@ async def gen_thumb(videoid):
         return YOUTUBE_IMG_URL
 
 
-async def gen_qthumb(videoid):
+async def gen_qthumb(videoid, user_id):
     try:
-        if os.path.isfile(f"cache/q{videoid}.jpg"):
-            return f"cache/q{videoid}.jpg"
+        if os.path.isfile(f"cache/q{videoid}_{user_id}.jpg"):
+            return f"cache/q{videoid}_{user_id}.jpg"
 
         url = f"https://www.youtube.com/watch?v={videoid}"
         if 1==1:
@@ -187,6 +187,27 @@ async def gen_qthumb(videoid):
                         )
                         await f.write(await resp.read())
                         await f.close()
+
+            wxyz = await app.get_profile_photos(user_id)
+            try:
+                wxy = await app.download_media(
+                    wxyz[0]["file_id"], file_name=f"{user_id}.jpg"
+                )
+            except:
+                hehe = await app.get_profile_photos(app.id)
+                wxy = await app.download_media(
+                    hehe[0]["file_id"], file_name=f"{app.id}.jpg"
+                )
+            xy = Image.open(wxy)
+
+            a = Image.new("L", [640, 640], 0)
+            b = ImageDraw.Draw(a)
+            b.pieslice([(0, 0), (640, 640)], 0, 360, fill=255, outline="white")
+            c = np.array(xy)
+            d = np.array(a)
+            e = np.dstack((c, d))
+            f = Image.fromarray(e)
+            x = f.resize((170, 170))
 
             youtube = Image.open(f"cache/thumb{videoid}.jpg")
             image1 = changeImageSize(1280, 720, youtube)
@@ -224,8 +245,9 @@ async def gen_qthumb(videoid):
             image3 = image3.resize((600,600))
             
 
-            image2.paste(image3, (50,70), mask = image3)
-            image2.paste(circle, (0,0), mask = circle)
+            image2.paste(image3, (50,70), mask=image3)
+            image2.paste(x, (470, 490), mask=x)
+            image2.paste(circle, (0,0), mask=circle)
 
             # fonts
             font1 = ImageFont.truetype('AnonX/assets/font.ttf', 30)
@@ -253,8 +275,8 @@ async def gen_qthumb(videoid):
             
             image2 = ImageOps.expand(image2,border=20,fill=make_col())
             image2 = image2.convert('RGB')
-            image2.save(f"cache/q{videoid}.jpg")
-            file = f"cache/q{videoid}.jpg"
+            image2.save(f"cache/q{videoid}_{user_id}.jpg")
+            file = f"cache/q{videoid}._{user_id}jpg"
             return file
     except Exception as e:
         print(e)
