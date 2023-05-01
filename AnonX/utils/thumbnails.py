@@ -276,7 +276,7 @@ async def gen_qthumb(videoid, user_id):
             image2 = ImageOps.expand(image2,border=20,fill=make_col())
             image2 = image2.convert('RGB')
             image2.save(f"cache/q{videoid}_{user_id}.jpg")
-            file = f"cache/q{videoid}._{user_id}jpg"
+            file = f"cache/q{videoid}_{user_id}jpg"
             return file
     except Exception as e:
         print(e)
