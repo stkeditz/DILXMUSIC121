@@ -8,6 +8,7 @@ from AnonX import app
 from AnonX.core.call import Anon
 from AnonX.utils import bot_sys_stats
 from AnonX.utils.decorators.language import language
+from AnonX.utils.inline.play import close_keyboard
 
 ### Commands
 PING_COMMAND = get_command("PING_COMMAND")
@@ -32,5 +33,6 @@ async def ping_com(client, message: Message, _):
     await response.edit_text(
         _["ping_2"].format(
             resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
-        )
+        ),
+        reply_markup=close_keyboard
     )
