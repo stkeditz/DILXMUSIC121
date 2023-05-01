@@ -38,10 +38,10 @@ def truncate(text):
     text2 = text2.strip()     
     return [text1,text2]
 
-async def gen_thumb(videoid):
+async def gen_thumb(videoid, user_id):
     try:
-        if os.path.isfile(f"cache/{videoid}.jpg"):
-            return f"cache/{videoid}.jpg"
+        if os.path.isfile(f"cache/{videoid}_{user_id}.jpg"):
+            return f"cache/{videoid}_{user_id}.jpg"
 
         url = f"https://www.youtube.com/watch?v={videoid}"
         if 1==1:
@@ -160,8 +160,8 @@ async def gen_thumb(videoid):
             image4.text((670, 550), text=channel, fill="white", font = font4, align ="left")
             
             image2 = ImageOps.expand(image2,border=20,fill=make_col())
-            image2 = image2.convert('RGB')
-            image2.save(f"cache/{videoid}.jpg")
+            image2.save(f"cache/{videoid}_{user_id}.jpg")
+            file = f"cache/{videoid}_{user_id}.jpg"
             file = f"cache/{videoid}.jpg"
             return file
     except Exception as e:
@@ -169,10 +169,10 @@ async def gen_thumb(videoid):
         return YOUTUBE_IMG_URL
 
 
-async def gen_qthumb(videoid):
+async def gen_thumb(videoid, user_id):
     try:
-        if os.path.isfile(f"cache/q{videoid}.jpg"):
-            return f"cache/q{videoid}.jpg"
+        if os.path.isfile(f"cache/{videoid}_{user_id}.jpg"):
+            return f"cache/{videoid}_{user_id}.jpg"
 
         url = f"https://www.youtube.com/watch?v={videoid}"
         if 1==1:
@@ -290,8 +290,8 @@ async def gen_qthumb(videoid):
             
             image2 = ImageOps.expand(image2,border=20,fill=make_col())
             image2 = image2.convert('RGB')
-            image2.save(f"cache/q{videoid}.jpg")
-            file = f"cache/q{videoid}.jpg"
+            image2.save(f"cache/{videoid}_{user_id}.jpg")
+            file = f"cache/{videoid}_{user_id}.jpg"
             return file
     except Exception as e:
         print(e)
